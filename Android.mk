@@ -1,4 +1,4 @@
-ifeq ($(call my-dir),$(call project-path-for,qcom-media))
+ifeq ($(TARGET_QCOM_MEDIA_VARIANT),caf-msm8996)
 
 QCOM_MEDIA_ROOT := $(call my-dir)
 
